@@ -1,0 +1,34 @@
+/*
+name: Nancy moraa Kebaso 
+reg no:CT101/G/23248/24
+*/
+#include<stdio.h>
+#include<string.h>
+
+struct employee 
+{
+int Id;
+char name[25];
+char department[20];
+char email[50];
+float salary;
+};
+int main()
+{
+struct employee employee1;
+//employee1 details;
+strcpy(employee1.name,"john doe");
+strcpy(employee1.department,"human resources");
+strcpy(employee1.email,"john.doe@campany.com");
+employee1.Id=12345;
+employee1.salary=55000.50;
+/*print employee1 details*/ 
+printf("employee1.name:%s\n", employee1.name);
+printf("employee1.department:%s\n", employee1.department);
+printf("employee1.email:%s\n", employee1.email);
+printf("employee1.Id:%d\n", employee1.Id);
+printf("employee1.salary:%f\n", employee1.salary);
+
+return 0;
+}
+    
